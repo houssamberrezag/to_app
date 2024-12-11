@@ -59,7 +59,7 @@ export default function Home() {
   }, [todos]);
 
   return (
-    <div style={{ maxWidth: "600px", margin: "0 auto", padding: "20px" }}>
+    <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
       <h1 style={{ textAlign: "center" }}>To-Do List</h1>
       <AddTodo onAdd={addTodo} />
       <FilterTodos filter={filter} setFilter={setFilter} />
